@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f1f5f8 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p, h1,h2, h3, h4 {
+  margin: 0;
+}
+
+.menu{
+  padding: 5rem 0;
+}
+
+.section{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.title{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.heading{
+  margin-bottom: .25rem;
+}
+
+.underline{
+  width: 5rem;
+  background: #c59d5f;
+  margin: 0 auto;
+  height: .25rem;
+}
+
+.section-center{
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 3rem 2rem;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.menu-item{
+  display: grid;
+  grid-template-columns: 225px 1fr;
+  gap: 0 1.25rem;
+  grid-gap: 0 1.25rem;
+}
+
+.photo {
+  border: 2px solid #c59d5f;
+  border-radius: 2px;
+  object-fit: cover;
+}
+.price{
+  color: #c59d5f;
+}
+
+.item-info header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: .5px dotted;
+  padding-bottom: .25rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.description{
+  padding-top: 1rem;
+  color: #617d98;
+}
+
+.btn-container{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.filter-btn{
+  border: none;
+  background: #f1f5f8;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #c59d5f;
+  padding: .25rem 1rem;
+  margin: 0 .25rem;
+  border-radius: 3px;
+}
+
+.filter-btn:hover{
+  color: #fff;
+  background: #c59d5f;
+}
